@@ -1,8 +1,9 @@
 import requests
 
 from core.context import ScanContext
-from core.registry import COLLECTORS
-
+from collectors.registry import COLLECTORS
+import collectors.response
+import collectors.headers
 
 class ScanPipeline:
 

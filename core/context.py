@@ -20,8 +20,12 @@ class ScanContext:
         default_factory=dict
     )
 
-    evidence: list = field(
-        default_factory=list
+    collector_results: dict = field(
+        default_factory=dict
+    )
+
+    evidence_package: dict = field(
+        default_factory=dict
     )
 
     observations: list = field(
