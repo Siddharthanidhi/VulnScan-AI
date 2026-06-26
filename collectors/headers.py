@@ -35,6 +35,7 @@ class HeaderCollector(BaseCollector):
             k.lower(): v
             for k, v in response.headers.items()
         }
+        print(response_headers)
 
         found_headers = {}
 
